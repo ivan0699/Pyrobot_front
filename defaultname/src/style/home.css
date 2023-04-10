@@ -1,0 +1,52 @@
+
+
+#mainTitle{
+    text-align: center;
+    color: white;
+    font-size: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#mainTitle:hover{
+    color: #FFF;
+    text-shadow: 0 0 10px #FFF,
+                 0 0 20px #FFF,
+                 0 0 40px #FF0000,
+                 0 0 80px #FFF,
+                 0 0 120px #fff;
+    
+}
+
+.box1 {
+    width: 500px;
+    margin: 6px auto;
+    display: flex;
+    justify-content: center;
+}
+.box2{
+    margin:100px
+}
+#top{
+    margin-bottom: 90px;
+}
+.homeButton{
+    width: 500px;
+
+    font-size: 60px;
+    background: red;
+    border:coral;
+    color:aliceblue;
+    padding:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 2px 2px 5px 5px rgb(130, 24, 24);
+
+
+}
+
+.box1 button:hover{
+
+    background:blue;
+    box-shadow: 2px 2px 5px 5px blue ;
+    transition: all 10ms linear 10ms;
+    cursor: pointer;
+}

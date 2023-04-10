@@ -1,0 +1,129 @@
+
+.bars{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    /* display: flex;
+    flex-direction: row; */
+    top: 1150px;
+}
+
+.robot0-PH{
+    font-size: 17px;
+    width: 100px;
+    font-family: 'Robot';
+    color: red;
+    /* position: absolute;
+    top: 2px; */
+    text-align: center;
+}
+.robot1-PH{
+    font-size: 17px;
+    width: 100px;
+    font-family: 'Robot';
+    color: rgb(58, 199, 29);
+    /* position: absolute;
+    top: 2px; */
+    text-align: center;
+}
+.robot2-PH{
+    font-size: 17px;
+    width: 100px;
+    font-family: 'Robot';
+    color: rgb(248, 224, 0);
+    /* position: absolute;
+    top: 2px; */
+    text-align: center;
+}
+.robot3-PH{
+    font-size: 17px;
+    width: 100px;
+    font-family: 'Robot';
+    color: rgb(4, 167, 255);
+    /* position: absolute;
+    top: 2px; */
+    text-align: center;
+}
+
+
+
+label{
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+progress{
+ 
+
+    width: 200px;   
+    border: 3px solid black;
+    
+   
+    /* -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none; */
+}
+.start{
+
+
+    background: black;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+}
+
+.restart{
+    font-size: 50px;
+    position: absolute;
+    top: 1140px;
+    left: 900px;
+    background: black;
+    border: 1px solid green;
+    width: 200px;
+    height: 60px;
+}
+#resume{
+    font-size: 40px;
+    color: rgb(15, 224, 50);
+    position: absolute;
+
+}
+#pause{
+    font-size: 40px;
+    color: rgb(15, 224, 50);
+    position: absolute;
+
+}
+#game-container {
+    margin: 10px 10px;
+    text-align: center;
+}
+
+button:hover{
+    cursor: pointer;
+}
+  
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8.9px;
+    width: 8.9px;
+
+}
+  
+.hide {
+    display: none;
+}
+  
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-board{
+    margin-top: 40px;
+    width: 1050px;
+    height: 1050px;
+}
+

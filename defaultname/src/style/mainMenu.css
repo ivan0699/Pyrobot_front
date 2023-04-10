@@ -1,0 +1,243 @@
+@font-face { /*Cargar fuente en html*/
+    font-family: 'Robot';
+    src: url(../style/fonts/menuFont/Robot_Font.otf);
+}
+@font-face { /*Cargar fuente en html*/
+    font-family: 'serviceTitle';
+    src: url(../style/fonts/menuFont/ModernDeco.ttf);
+}
+nav {
+    padding: 20px;
+    width: 100%;
+    height: 45px;
+    background: #121314;
+    position: fixed;
+ 
+    top:0;
+    
+}
+nav h1{
+    color: white;
+    font-family: 'Robot';
+    position:absolute;
+    bottom:5px;
+}
+
+.userPortrait{
+    position: absolute;
+    bottom: 3px;
+    left:96%;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    border: 2px solid black;
+
+}
+.userPortrait img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+}
+.userPortrait :hover{
+    cursor: pointer;
+}
+.sidebar{
+    position:fixed;
+    top: 45px;
+    width: 240px;
+    height: 100%;
+    box-sizing: initial;
+    background-color: #151719;
+    border-left: 10px solid #151719;
+    overflow: hidden;
+}
+.separator{
+    width: 95%;
+    height: 2px;
+    background: white;
+}
+.sidebar ul{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Robot';
+}
+.sidebar ul li{
+    position:relative;
+    list-style: none;
+    width: 270px;
+    margin-bottom: 40px;
+    text-align: center;
+
+
+    
+}
+
+.sidebar ul li a{
+    position:relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color:#fff
+}
+
+.sidebar ul li a i{
+    position:relative;
+    display: block;
+    min-width: 60px;
+    height: 40px;
+    text-align: center;
+
+}
+
+.sidebar ul li :hover{
+    background:rgb(33, 32, 32);
+    border-radius: 20px;
+}
+
+.sidebar ul li a i{
+    margin-top:20px
+}
+.sidebar ul li a h4{
+    margin-top:20px
+}
+
+.sidebar ul li :focus{
+    background:rgb(33, 32, 32);
+    border-radius: 20px;
+}
+
+.global{
+    width: 100%;
+    height: 100%;
+
+}
+
+.container{
+    position: absolute;
+    padding: 10px;
+    display: block;
+    width:1040px;
+    height: 866px;
+    top:50px;
+    left:30%
+}
+.bars ProgressBar{
+    width: 10%;
+}
+/* CONTAINERS SERVICES */
+.title{
+    font-family: 'Robot';
+    color:white;
+    text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000;
+    text-align: center;
+    font-size: 60px;
+    
+}
+.outterlobby{
+    width: 930px;
+    height: 130px;
+    position: relative;
+}
+.buttonClose{
+    width: 100px;
+    height: 79px;
+    background-color: rgb(0, 3, 6);
+    color:white;
+    font-size: 30px;
+    box-shadow:-2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; 
+    position: absolute;
+    left: 87%;
+    top: 35px;
+}
+.L-container{
+    width: 1020px;
+    height: 845px;
+    border-radius: 10px;
+    background-color: #121314;
+    overflow: hidden;
+}
+.lobby-flow{
+    padding: 20px;
+    width: 1000px;
+    height: 760px;
+    border: 4px solid rgb(35, 33, 33);
+    margin:0px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap:50px;
+    overflow: scroll;
+}
+.CR-container{
+    width: 1020px;
+    height: 845px;
+    border-radius: 10px;
+    background-color: #121314;
+    overflow: hidden;
+}
+.innerflow{
+    padding: 20px;
+    width: 1000px;
+    height: 760px;
+    border: 4px solid rgb(35, 33, 33);
+    margin:0px auto;
+
+}
+.CM-container{
+    width: 1020px;
+    height: 845px;
+    border-radius: 10px;
+    background-color: #121314;
+    overflow: hidden;
+}
+.CS-container{
+    
+    width: 1020px;
+    height: 845px;
+    border-radius: 10px;
+    background-color: #121314;
+    overflow: hidden;
+}
+.FM-container{
+    width: 1020px;
+    height: 845px;
+    border-radius: 10px;
+    background-color: #121314;
+    overflow: hidden;
+}
+.JM-container{
+    width: 1020px;
+    height: 845px;
+    border-radius: 10px;
+    background-color: #121314;
+    overflow: hidden;
+}
+
+.S-container{
+    width: 1250px;
+    height: 1250px;
+    border-radius: 10px;
+    background-color: #121314;
+    overflow: hidden;
+}
+
+.P-container{
+    width: 1020px;
+    height: 845px;
+    border-radius: 10px;
+    background-color: #121314;
+    overflow: hidden;
+}
+.innerflowS{
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height:1150px;
+    border: 4px solid rgb(35, 33, 33);
+    margin:0px auto;
+
+}
+

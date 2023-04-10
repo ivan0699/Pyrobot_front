@@ -1,0 +1,64 @@
+.containerJM{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.robotList{
+    width: 100%;
+    margin: 40px AUTO;
+    display: flex;
+    justify-content: center;
+}
+
+.joinButton h1{
+    font-size: 56px;
+    color:white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+
+
+#list{
+    margin-top: 50px;
+    width: 400px;
+    text-align: center;
+
+}
+.passwordInput{
+    position:absolute;
+    top:37%;
+    width:400px;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 13px 0;
+    font-size: 40px;
+    font-family: 'Robot';
+    border: 2px solid black;
+}
+
+/* .passwordInput ::placeholder{
+    font-size: 60px;
+} */
+.buttonCenter{
+    width: 400px;
+    margin: 200px auto;
+}
+.joinButton{
+    width: 400px;
+    margin-top: 40px;
+    background: black;
+    border: 1px solid green;
+}
+.containerJM .p-button:enabled:hover{
+    background: #11dca6
+}
+.containerJM h1{
+    color: white;
+    position: absolute;
+    font-family: 'Robot';
+    font-size: 50px;
+    top:10%;
+}

@@ -1,0 +1,14 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.App{
+  height: 100vh; 
+  width: 100vw; 
+  overflow: hidden;
+
+}
+body{
+  background: rgb(33, 32, 32);
+}

@@ -1,0 +1,43 @@
+
+.card{
+    margin:100px auto;
+    width: 500px;
+    height: 600px;
+    background:white;
+    border-radius: 30px;
+}
+.outter{
+    background-color: rgb(192, 201, 210);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    
+}
+#loginTitle{
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+
+}
+.loginForm{
+   margin: 100px;
+}
+.field{
+    margin-bottom: 30px;
+}
+.field input{
+    height: 36px;
+    width: 300px;
+}
+.buttonContainer{
+    margin: 50px auto;
+    width: 300px;
+}
+.buttonContainer button{
+    height: 70px;
+    width: 300px;
+}
+.message{
+    display: none;
+}
+

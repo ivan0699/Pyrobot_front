@@ -1,0 +1,57 @@
+.SettingMatch{
+    width: 446px;
+    margin: 10px 290px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.SettingMatch input {
+    width:400px;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 13px 0;
+    font-size: 40px;
+    font-family: 'Robot';
+    border: 2px solid black;
+
+
+
+}
+.SettingMatch h2{
+    color: white;
+    font-size: 20px;
+    width: 110px;
+}
+.description{
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    margin-left: 6px;
+}
+.list-CM-container{
+    background: red;
+    margin-top: 13px;
+    width: 400px;
+}
+.list-CM{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    font-size: 100px;
+}
+
+.list-CM .p-dropdown-label{
+    font-size: 40px;
+    font-family: 'Robot';
+}
+.submitButton{
+    width: 400px;
+    margin-top: 40px;
+    background: black;
+    border: 1px solid green;
+}
+.SettingMatch .p-button:enabled:hover{
+    background: #11dca6
+}

@@ -1,0 +1,108 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 40px 60px;
+
+}
+
+.picture{
+
+    height: 125px;
+    width: 125px;
+
+
+    border-radius: 150px;
+}
+
+.profile-change {
+    margin-top: 18px;
+    height: 250px;
+    width: 420px;
+
+}
+
+.profile-Picture p {
+    font-family: 'Robot';
+    color: white;
+    font-size: 30px;
+}
+
+.button-save {
+    width: 420px;
+}
+
+.data-Profile{
+    position:absolute;
+    top: 43%;
+    left: 50%;
+    
+}
+
+.data-Profile p {
+    font-family: 'Robot';
+    color: white;
+    font-size: 40px;
+}
+
+
+
+
+.data-Profile input { 
+    height: 42px;
+    width: 300px;   
+    padding: 14px;
+}
+
+.data-Profile Button {
+    height: 42px;
+   
+}
+
+.robot-List {
+    position: absolute;
+    top: 74%;
+}
+
+.robot-List h2 {
+    color: white;
+    font-family: 'Robot';
+    position: relative;
+ 
+}
+.robots{
+    align-items: row;
+    display: flex;
+    width: 960px;
+    overflow: scroll;
+
+}
+
+.robot-card{
+    align-items: column;
+    justify-items: center;
+    margin:10px 15px;
+    width: 200px;
+    height: 160px;
+    background:white;
+    border-radius: 30px;
+}
+
+.robot-pic {
+    height: 60px;
+    width: 60px;
+    border-radius: 65px;
+    margin-top:2%;
+    margin-left:35%;
+}
+
+.robot-name {
+    justify-content: center;
+    margin-left: 35%;
+}
+
+.robot-stats {
+    justify-content: center;
+    margin-left: 10%;
+}

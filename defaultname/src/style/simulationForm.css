@@ -1,0 +1,83 @@
+@font-face { /*Cargar fuente en html*/
+    font-family: 'Robot';
+    src: url(../style/fonts/menuFont/Robot_Font.otf);
+}
+
+.progress{
+    width: 900px;
+    height: 150px;
+    margin:40px auto;
+    left:2px;
+    font-size: 70px;
+    color:rgb(255, 255, 255);
+    font-family: 'Robot';
+    padding: 20px;
+    
+}
+.slider {
+  width: 100%;
+  height: 50px;
+  background: #11dca6;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 30px;
+  background: #000000;
+  cursor: pointer;
+}
+
+.custom-select{
+
+    width: 700px;
+    height: 100px;
+    margin: 0px auto;
+    margin-top:150px;
+}
+
+.list{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 100px;
+}
+.list .p-dropdown-label{
+    font-size: 20px;
+    font-family: 'Robot';
+}
+
+.simulateButton{
+  width: 150px;
+  height: 100px;
+  background: black;
+  border: 1px solid green;
+}
+
+
+.buttonCont{
+  width: 200px;
+  height: 200px;
+  margin: 160px auto;
+}
+
+.buttonCont .p-button:enabled:hover{
+  background: #11dca6
+}

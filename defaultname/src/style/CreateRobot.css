@@ -1,0 +1,60 @@
+.containerCR{
+    width: 100%;
+    height: 100%;
+}
+.field1{
+    width: 400px;
+    height: 50px;
+    margin: 13px auto;
+    margin-bottom: 40px;
+}
+#name{
+    width:400px;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 13px 0;
+    font-size: 40px;
+    font-family: 'Robot';
+    border: 2px solid black;
+}
+
+.field2{
+    margin-bottom: 10px;
+}
+
+.field2 .p-inputtext{
+    background-color: rgba(28, 25, 25, 0.786);
+    color:yellow
+}
+.field3{
+    margin-bottom: 30px;
+}
+.field3 .p-fileupload .p-fileupload-buttonbar{
+    background: rgba(28, 25, 25, 0.786);
+}
+.field3 .p-fileupload .p-fileupload-content{
+    background: rgba(28, 25, 25, 0.786);
+}
+.field3 .p-button{
+    background: black;
+    border: 1px solid green;
+}
+
+.field3 .p-button:enabled:hover{
+    background: #11dca6
+}
+.upload{
+    width: 80px;
+    height: 80px;
+    margin: 0px auto;
+}
+.upload .p-button{
+    background: black;
+    width: 80px;
+    height: 20px;
+    border: 1px solid green;
+}
+
+.upload .p-button:enabled:hover{
+    background: #11dca6
+}
